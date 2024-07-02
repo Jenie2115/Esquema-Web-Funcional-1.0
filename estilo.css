@@ -1,0 +1,409 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:arial;
+ 
+}
+.main{
+    width: 100%;
+    height: 100vh;
+  
+}
+body{   
+  background-image: url('Castillo Underground.jpg'); 
+   font-family:arial;
+   color: #ffffff;
+   background-repeat: no-repeat;
+   background-size: cover ;
+   background-attachment: fixed;
+}   
+
+/*inicia parte 1*/
+.section-1{
+    width: 100%;
+    height: 10em;
+    background: linear-gradient(90DEG,#412A84,#10739A);
+    padding-top: 1.5em;
+}
+.header{
+   background-color: #2d2f3e; 
+   width: 100%; 
+   height: 3.5em;
+   display:flex;
+   flex-direction: row;
+   overflow:hidden;
+   justify-content:center;
+   align-items:center;
+}
+.img{
+   
+   width: 25%;
+   height: 100%; 
+}
+
+.menu{
+   display:flex;
+   flex-durection:row;
+   justify-content:right;
+   align-items:center;
+   width: 55%;
+   height: 100%;
+}
+.img img{
+   object-fit:cover;
+   height: 100%; 
+}
+.menu a{
+    display:flex;
+    text-decoration: none;
+    color: #fff;
+    padding: 2em 1em;
+}
+
+.menu a:hover{
+    
+    background-color: #000000 ;
+}
+/*finaliza parte 1*/
+
+/*Inicia parte 2*/
+.section-2{ 
+    width: 100%;
+    height: calc(100vh-20em);
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    padding: 1em 0;
+}
+.contenido-img img{
+   object-fit:cover;
+    width:100%;
+    
+}
+ 
+.s2-texto{  
+    width: 80%;
+    height: 25%;
+    padding: 2em 0; 
+    text-indent: 25px; 
+    
+ }
+ 
+.s2-img{
+  width: 80%;
+    height:75%;
+    display:flex; 
+    flex-direction:row; 
+   
+}    
+
+.titulo{
+ font-size:2em;   
+ text-align:center;
+ color:#8098ff;  
+}
+
+.s2-texto hr{
+  width: 5%;  
+  height: 0.25em;
+  border:none; 
+  border-radius:1em;
+  background: linear-gradient(90DEG,#412A84,#10739A);
+  margin: 1em auto;
+}
+.s2-texto p{
+   font-size: 1.25em; 
+  text-align:justify;
+}
+
+.s2-contenido{
+    width: 33.33%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+    padding:0.5em ;
+}
+
+.contenido-img{
+    width: 100%;
+    height: 50%;
+    overflow:hidden;
+}
+
+ 
+.contenido-texto{
+   
+   width: 100%;
+   height: 50%; 
+   display:flex;
+   flex-direction: column;
+   align-items:center;
+   justify-content:flex-start;
+   padding:0.5em 0;
+  
+  
+}
+.contenido-texto h2{
+  font-size:1.25em;
+  color: #d5f4ff;  
+}
+
+.contenido-texto p{
+  Font-Size:1.25Em;
+  Color:ffffff;    
+  Margin: 1Em 0; 
+  margin: 1em 0; 
+  text-indent: 25px;
+  text-align: center;
+}
+.contenido-texto a{
+   text-decoration:none;
+   color: #ffffff; 
+   width: 35%;
+   padding: 0.5em 0;
+   border:none;
+   border-radius:5px;
+  background-color: #10739A;
+   text-align:center; 
+}
+.s2-contenido-extra{
+ width: 50%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+    padding:0.5em ;   
+}
+.contenido-texto-parte2 p{
+  Font-Size:1.25Em;
+  Color:#ffffff;    
+  Margin: 1Em 0; 
+  margin: 1em 0;
+  text-align:center; 
+}
+.contenido-texto-parte2 h2{
+  font-size:1.25em;
+  color: #d5f4ff; 
+  text-align:center; 
+}
+.contenido-imagen{
+    width: 100%;
+    height: 20%;
+    overflow:hidden;
+}
+.Contenido-extra{  
+  width: 80%;
+    height:75%;
+    display:flex; 
+    flex-direction:row;    
+    /* parte 2.1 */
+}
+.imagen-s2{
+  width: 80%;
+    height:75%;
+    display:flex; 
+    flex-direction:row;    
+}   
+.contenido-s2{
+    width: 33.33%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+    padding:0.5em ;
+}
+
+.Imagenes img{
+    width: 100%;
+    height: 50%;
+    overflow:hidden;
+}
+
+.Texto{
+   
+   width: 100%;
+   height: 50%; 
+   display:flex;
+   flex-direction: column;
+   justify-content:flex-start;
+   align-items:center;
+   padding:0.5em 0;
+   
+}
+.Texto h2{
+  font-size:1.25em;
+  color: #d5f4ff;  
+}
+
+.Texto p{
+  Font-Size:1.25Em;
+  Color:#ffffff;    
+  Margin: 1Em 0; 
+  margin: 1em 0;
+  text-align:center; 
+}
+.Texto a{
+   text-decoration:none;
+   font-color: #fff; 
+   width: 35%;
+   padding: 0.5em 0;
+   border:none;
+   border-radius:5px;
+  background-color: #eabfff;
+   text-align:center; 
+}
+
+.Toby-img{
+border:none;
+border-radius:5px;
+  align:center;
+  
+}
+
+.Leyenda{
+    text-align:center;
+    align-items:center;
+    margin: 0 3em;
+   font-size: 1.25em; 
+}
+
+.Leyenda-img{
+    width: 100%;
+    height: 50%;
+    text-align:center;
+    align-items:center;
+    
+}
+
+.curiosidades{
+    position: right;
+    font-size: 1.20em;
+    margin:0 3em ;
+}
+.titulo-curi{
+   text-align:right;
+   align-items:right;
+   margin: 0 3em;
+   font-size: 1.5em; 
+   color:#8098ff;  
+}
+.Traducción{
+margin: 0 4em ;
+}
+
+.Instrumental{
+    width: 100%;
+    height:100%;
+    text-align:center;
+    align-items:center;
+overflow:hidden;
+      
+}
+
+.Audios{
+   width: 50%; 
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+ 
+    
+}
+.Textos-musica{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    
+}
+
+.titulos{
+  font-size:1.50em;   
+ text-align:left;
+ color:#8098ff;    
+    
+}
+.Nombre{
+   font-size:1em;    
+   text-align:left;
+   color:#779db389;
+}
+/*finaliza parte 2*/
+
+/*Inicia parte 3*/
+.section-3{
+    width: 100%;
+    height: 12em;
+    background: #2d2f3e;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.section-3 hr{
+   background: linear-gradient(90DEG,#412A84,#10739A);
+   width: 100%;
+   height: 5%;
+   border:none;
+}
+
+.s3-logo img{
+   object-fit:cover;
+   height: 100%; 
+}
+
+.s3-contenido{
+  width: 100%;
+  height: 65%;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  
+}
+.s3-logo{
+   width:50%;
+}    
+.s3-texto{
+   width:30%; 
+   color: #fff;
+  font-size:18px;
+  text-decoration:none;
+}
+.s3-texto h3{
+  margin:0.25em 0;  
+  font-size:20px;  
+}
+.footer{
+width: 100%;
+  height: 30%; 
+  border-top:#585c69 solid 0.0625em;
+  display: flex;
+  flex-direction:row;
+  justify-content:left;
+  align-items:center;
+  color: #fff;
+  padding: 0 10%;
+}
+.autora{
+  text-decoration: none;
+  color:#fff; 
+  margin: 0.25em;
+}
+
+.politicas{
+   text-decoration:none; 
+   color:#fff;
+   margin:3em; 
+}
+
+.Enlace{
+   text-decoration:none;
+   color: ##ff80b3ce;
+    
+}
+
+/*Finaliza parte 3*/
